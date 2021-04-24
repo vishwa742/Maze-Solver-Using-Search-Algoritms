@@ -6,47 +6,39 @@
   text-align: center;
   padding-top: 30px;
 }
-
+.test {
+  margin: 0px;
+  padding: 0;
+  height: 55px;
+}
 .inactive_class {
-  width: 25.69px;
-  height: 34.69px;
+  width: 59px;
+  height: 55px;
   display: inline-block;
-  background-color: rgb(250, 0, 0);
-  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+
+  border-style: outset;
   border-color: black;
-
-  transition: transform 0.2s;
 }
 
-.inactive_class:hover {
+/* .inactive_class:hover {
   transform: scale(1.4);
-}
+} */
 
 .cell_Clicked {
   width: 25.69px;
   height: 34.69px;
   border-radius: 3px;
   display: inline-block;
+  background-color: mediumspringgreen;
   margin: 5px;
   transition: transform 0.2s;
 }
 
 .cell_Clicked:hover {
   transform: scale(1.4);
-}
-
-.cell_Clicked1 {
-  width: 25.69px;
-  height: 34.69px;
-  border-radius: 3px;
-
-  display: inline-block;
-  margin: 5px;
-  background-color: mediumspringgreen;
-  white-space: nowrap;
-  color: black;
-  /* margin-bottom: 75px;
-  justify-content: left; */
 }
 
 .btn {

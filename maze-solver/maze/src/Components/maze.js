@@ -20,13 +20,10 @@ const Maze = () => {
     <>
       <div className="body">
         {board.map((row, rowIdx) => (
-          <div key={rowIdx} className="row">
-            {/* {rowIdx} */}
-
+          <div key={rowIdx} className="test">
             {row.map((cell, cellIdx) => (
               <div
                 key={cellIdx}
-                style={{ marginTop: "5px" }}
                 className={
                   boardIndeces[rowIdx][cellIdx] === 0
                     ? "inactive_class"
