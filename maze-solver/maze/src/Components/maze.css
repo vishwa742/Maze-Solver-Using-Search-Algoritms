@@ -4,21 +4,20 @@
   min-width: 100%;
   position: absolute;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .test {
   margin: 0px;
   padding: 0;
-  height: 55px;
+  height: 25px;
 }
 .inactive_class {
-  width: 59px;
-  height: 55px;
+  width: 19px;
+  height: 25px;
   display: inline-block;
   background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
-
   border-style: outset;
   border-color: black;
 }
@@ -28,13 +27,14 @@
 } */
 
 .cell_Clicked {
-  width: 25.69px;
-  height: 34.69px;
-  border-radius: 3px;
+  width: 19px;
+  height: 25px;
   display: inline-block;
-  background-color: mediumspringgreen;
-  margin: 5px;
-  transition: transform 0.2s;
+  background-color: mediumaquamarine;
+  margin: 0;
+  padding: 0;
+  border-style: outset;
+  border-color: black;
 }
 
 .cell_Clicked:hover {
